@@ -1,0 +1,44 @@
+html {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a2de96;
+}
+
+.button-container {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 13px;
+    box-shadow: inset 0 20px 30px -19px rgba(255, 255, 255, 0.8);
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+    width: 100px;
+    height: 75px;
+    font-size: 25px;
+    text-shadow: 0 2px 2px black;
+    background: linear-gradient(to top, white, rgb(211, 206, 206));
+    border: 2px solid black;
+    border-radius: 17px;
+    box-shadow: 0 18px 18px 0 rgba(0, 0, 0, 0.3);
+
+
+}
+
+button:hover {
+    background: linear-gradient(to bottom, white, snow);
+    color: black;
+}
+
+button:active {
+    transform: translateY(3px);
+    box-shadow: 0 6px 6px 0 rgba(0, 0, 0, 0.3);
+}
